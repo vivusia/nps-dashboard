@@ -37,7 +37,8 @@ The project initially included a **sentiment analysis** step to identify whether
 However, since the **NPS score (0–10)** already reflects the respondent’s satisfaction level, an additional sentiment layer would have been redundant.
 
 Instead, the focus was shifted to a **zero-shot topic classification** approach using GPT-4.  
-This method complements the NPS data by revealing **what users are talking about** rather than **how they feel** — uncovering the main drivers behind positive or negative feedback (e.g., price, app usability, journalistic quality, etc.).
+This method complements the NPS data by revealing **what users are talking about** rather than **how they feel** — uncovering the main drivers behind positive or negative feedback (e.g., price, app usability, journalistic quality, etc.).  
+Additionally, the zero-shot approach allowed each comment to be **assigned to multiple relevant categories** simultaneously, reflecting the multidimensional nature of real customer feedback.For example, a single comment could relate both to *Cost* and *App Usability*, which would be lost in single-label classification methods.
 
 ---
 
