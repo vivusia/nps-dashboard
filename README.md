@@ -60,4 +60,13 @@ to enable **data-driven decision-making in customer experience management**.
 
 ---
 
-✨ *From unstructured feedback to structured insights — powered by GPT-4 and Power BI.*
+### 📸 Dashboard Preview
+
+Here’s a preview of the **NPS dashboard** in Power BI:
+
+![Dashboard Screenshot](https://github.com/vivusia/nps-dashboard/blob/main/nps%20dashboard%20screenshot%20blurred.png)
+![Dashboard Screenshot](https://github.com/vivusia/nps-dashboard/blob/main/nps%20dashboard%20screenshot%202%20blurred.png)
+
+> ⚠️ *Note: The screenshots are intentionally blurred to protect confidential business data and comply with data privacy requirements.*
+
+The image above shows how the classified comment data, NPS, and other KPIs integrate visually in the dashboard.
