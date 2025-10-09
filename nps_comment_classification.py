@@ -7,12 +7,18 @@ Description:
 - Classifies feedback into thematic categories using GPT-4 (zero-shot)
 - Exports the enriched dataset to Excel for visualization in Power BI
 
-Note:
-    File paths and API key placeholders have been redacted for confidentiality.
+Required Packages:
+pandas
+openpyxl
+openai
+
+Installation:
+pip install -r requirements.txt
+
+Note: File paths and API key placeholders have been redacted for confidentiality.
 """
 
 #import packages
-
 import pandas as pd
 import os
 import glob
@@ -150,6 +156,7 @@ results_df = pd.DataFrame(
 df = pd.concat([df, results_df], axis=1)
 
 # Export Dataframe
-output_path = r"/Users/[USERNAME]/Documents/[PROJECT_FOLDER]/Kommentare_Clustering.xlsx"    #replace
+output_path = r"/Users/[USERNAME]/Documents/[PROJECT_FOLDER]/nps_comment_classification.xlsx"    #replace
 df.to_excel(output_path, index=False)
 print(f" Data saved: {output_path}")
+
