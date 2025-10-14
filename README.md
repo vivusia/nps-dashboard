@@ -1,4 +1,4 @@
-## 🧾 Project Overview
+# 🧾 Project Overview
 
 As part of a real business project in the **media and journalism industry**, I developed an **interactive NPS (Net Promoter Score) dashboard in Power BI** that integrates both **quantitative metrics** and **qualitative customer feedback**.
 
